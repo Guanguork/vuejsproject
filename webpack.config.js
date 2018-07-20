@@ -10,7 +10,7 @@ const setPath = function(folderName) {
 }
 
 const buildingForLocal = () => {
-  return (NODE_ENV === 'production');
+  return (NODE_ENV === 'staging');
 };
 
 const setPublicPath = () => {
