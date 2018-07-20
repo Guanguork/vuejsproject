@@ -16,9 +16,9 @@ const buildingForLocal = () => {
 const setPublicPath = () => {
   let env = NODE_ENV;
   if (env === 'production') {
-    return 'http://wwww.javascripter.tk/';
+    return 'http://www.javascripter.tk/';
   } else if (env === 'staging') {
-    return 'http://wwww.javascripter.tk/';
+    return 'http://www.javascripter.tk/';
   } else {
     return '/';
   }
